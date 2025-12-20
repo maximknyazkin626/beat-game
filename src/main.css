@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: inherit;
+    /* cursor: url('/assets/goblin.png'), auto; */
+}
+
+.table{
+    width: 60%;
+    border: 1px solid black;
+    margin-top: 3%;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    border: 1px solid black;
+    width: 25%;
+    height: 140px;
+    padding: 10px;
+    text-align: center;
+}
+
+.startButton{
+    border: 2px solid black;
+    font-size: 16px;
+    padding: 15px 20px;
+    margin-top: 30px;
+}
+
+.startButton:hover{
+    cursor: pointer;
+}
+
+.row{
+
+}
+.col{
+
+}
